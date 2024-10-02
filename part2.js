@@ -6,7 +6,7 @@ Continuing with the example above, if n is equal to 4, your loop should log 5. S
 it should log 7, and if n is 9, it should log 11. Test your loop with higher numbers and reference an online prime number table to determine the accuracy of your code.
 */
 
-let n = 7; 
+let n = 12; 
 
 while (true) {
     n++
@@ -17,8 +17,8 @@ while (true) {
 }
 
 function isPrime(n) {
-    for (let i = 2; i < n; i++) { 
-      if(n % i === 0) return false; 
-    }
-    return n > 1; 
+  for (let i = 2; i < n; i++) { 
+    if(n % i === 0) return false; 
   }
+  return n > 1; 
+}
